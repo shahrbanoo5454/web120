@@ -1,0 +1,66 @@
+
+.logo{
+     width:100px; height:100px;
+}
+nav{
+    background-color: navy; color: white;
+}
+.a{
+    background-color: lightskyblue;
+}
+.asli{
+    margin-left:100px; margin-right: 100px;
+}
+.b{
+    color: white;font-size:60px;
+}
+.c{
+    font-size: 25px;color: yellow;
+}
+.d{
+    font-size: 35px;
+}
+header{
+    background-color:navy ;
+}
+.e{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.f{
+    font-size:30px;
+}
+.g{
+    background-color: lightsteelblue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h{
+    width: 200px; height:200px;
+}
+.btn{
+    background-color: navy; color: white;
+}
+footer{
+    background-color: navy;color: white;
+}
+.i{
+list-style-type:none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.j{
+    font-size: 30px;
+    color: white;
+}
+.k{
+    background-color: navy;
+}
+.l{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.m{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+footer h1{
+    font-size: 25px;
+}
