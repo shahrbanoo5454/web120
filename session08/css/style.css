@@ -1,0 +1,68 @@
+div{
+    margin-top: 40px;
+    margin-left:350px;
+    margin-right:305px;;
+    
+    height: 290px;
+    border-width: 10px;
+    border-style: groove;
+    
+}
+.a{
+    background-color: rgb(200, 0,0);
+}
+.b{
+    background-image: url(../img/sm_nyc_banner.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    
+  margin: auto;
+  border-color:green;
+  border-style: groove;
+  border-width: 1px;
+
+}
+table tr:nth-child(1){
+    background-color: rgb(9, 90, 9);
+    color:white;
+}
+table tr:nth-child(2n){
+    background-color: rgb(230, 230, 230);
+}
+#a{
+    width:300px;
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#b{
+    width:300px;
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#c{
+    width: 700px;
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+table tr{
+    height: 50px;
+}
+table td{
+    font-weight: bold;
+   
+}
+td{
+    border: black 1px;
+    border-style:solid;
+}
+.jj{
+   background:url(../img/featured.png) no-repeat left top,url(../img/sm_nyc_banner.jpg)no-repeat center/cover;
+}
+.xx{
+    background:url(../img/new.png)no-repeat right top,url(../img/featured.png) no-repeat left top,url(../img/sm_nyc_banner.jpg)no-repeat center/cover;
+}
