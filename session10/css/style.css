@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+header{
+    background-color:rgb(120,120,120);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header h1{
+    padding: 20px;
+}
+
+main .paragraph{
+    background-color: rgb(180,180,180);
+    float: left;
+    width: 75%;
+}
+main .menu ul{
+ 
+    padding: 10px 30px;
+    list-style-type: none;
+    background-color:rgb(130,130,130); 
+    
+}
+main .menu{
+    float: left;
+    width: 25%;
+}
+
+footer{
+    clear: both;
+background-color: black;
+}
+footer p{padding: 10px;
+    text-align: center;
+color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.paragraph .p1{
+    padding: 20px 5px;
+}
