@@ -1,0 +1,26 @@
+.box1{
+    background-color: green;
+
+    
+}
+.box2{
+    background-color: blue;
+    
+}
+.box3{
+    background-color: rgb(79, 79, 223);
+    
+}
+.box4{
+    background-color: crimson;
+   
+}
+.box5{
+    background-color: yellow;
+}
+.backcolor-gray{
+    background-color: rgb(17, 17, 17);
+}
+.text-color{
+   color: #fff;
+}
