@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <title>اقساط عموم</title>
+    <style>
+        body{
+            direction: rtl;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-12 text-center mb-5 ">
+                <h1 class="h1">محاسبه مبالغ به صورت چکی:</h1>
+                <p>شرایط:چک شخص خریدار حتما باید بنفش و قابل ثبت بوده و همچنین باید استعلام ثنا به همراه داشته باشد</p>
+            </div>
+        </div> 
+        <form action="">
+        <div class="row">
+            
+                    <div class="col-4 d-flex">
+                        <label for="" class="w-50">(مبلغ محصول( 18 ماهه اقساط:</label>
+                        <input type="number" class="form-control" value="20000000" id="pricee">
+                        <button class="btn btn-primary h-50" type="submit" onclick='aqsat()'>hhh</button>
+
+                    </div>
+                <div class="col-4 d-flex">
+                    <label for="" class="w-100">مبلغ پیش پرداخت(20%):</label>
+                    <input type="number" class="form-control" id="prepayment" >
+                </div>
+                <div class="col-4 d-flex">
+                    <label for="" class="w-75">مبلغ هر قسط:</label>
+                    <input type="number" class="form-control" id="insrallments">
+                </div>
+                <div class="col-4 d-flex mt-3">
+                    <label for="" class="w-75">تعداد اقساط  :</label>
+                    <select name="" id="month">
+                        <option value="shesh" >شش ماهه</option>
+                        <option value="davazdah" >دوازده ماهه</option>
+                        <option value="hejdah" > هجده ماهه</option>
+
+                    </select>
+                </div>
+                </div>
+                    <div class="row">
+                        <div class="col-12">
+                            
+                          
+                    </div>
+
+                    <div id="aa"></div>
+             
+           </form>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
