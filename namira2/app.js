@@ -1,48 +1,65 @@
 
   var $pricee=document.getElementById('pricee').value;
   var $month=document.getElementById('month').value;
-  var $insrallments=document.getElementById('insrallments').value;
-  var qest=0;
-   var hesab=0;
-    hesab+=(20*$pricee)/100;
-   var mande=Math.floor($pricee-hesab);
+//   var $insrallments=document.getElementById('insrallments').value;
+ var sixqest=0;
+ var davazdahqest=0;
+ var hejdahqest=0;
+
+   // var hesab=0;
+   //  hesab+=(20*$pricee)/100;
+   
  
-
-  
-
-
 function aqsat(){
-    event.preventDefault();
+   //  event.preventDefault();
   
- 
-    if($pricee<=50000000 && $pricee>=20000000){
-       
-       document.getElementById('prepayment').value=hesab;
-    console.log(hesab);
-            }
-    else{
-        alert("hh");
-    }
+    var $pricee=document.getElementById('pricee').value;
+   
     
-    switch ($month){
-        case 'shesh':
-            qest=(((mande*10.8)/100)+mande)/6;
-            qest=Math.floor(Number(qest));
-           
-            break;
+    var hesab=0;
+     hesab+=(20*$pricee)/100;
+     var mande=Math.floor($pricee-hesab);
+ 
+     if($pricee<=50000000 && $pricee>=20000000){
+        
+        document.getElementById('prepayment').value=hesab;
+        
+     console.log(hesab);
+     switch ($month){
+        
+      case 'shesh':
+         //  $insrallments=document.getAnimations('insrallments').value='';
+         sixqest=(((mande*10.8)/100)+mande)/6;
+          sixqest=Math.floor(Number(sixqest));
+          $insrallments=document.getElementById('insrallments').value=sixqest;
+          break;
 
-         case 'davazdah':
-            qest=(((mande*15)/100)+mande)/12;
-            qest=Math.floor(Number(qest));
-             break;
+       case 'davazdah':
+         // $insrallments=document.getAnimations('insrallments').value='';
+          davazdahqest=(((mande*15)/100)+mande)/12;
+          davazdahqest=Math.floor(Number(davazdahqest));
+          $insrallments=document.getElementById('insrallments').value=davazdahqest;
+           break;
 
-             default:
-                qest=(((mande*18.5)/100)+mande)/18;
-                qest=Math.floor(Number(qest));
-             break;
-    }
+           default:
+         // $insrallments=document.getAnimations('insrallments').value='';
+            
+              hejdahqest=(((mande*18.5)/100)+mande)/18;
+              hejdahqest=Math.floor(Number(hejdahqest));
+              $insrallments=document.getElementById('insrallments').value=hejdahqest;
+           break;
+  }
+
+
+             }
+     else{
+         alert("hh");
+     }
+    
+    
      
-  $insrallments=document.getElementById('insrallments').value=qest;
+ 
+
    
 
   return 1;
